@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-29 15:10:28.593295",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sites",
+  "section_break_lmkx",
+  "table_settings"
+ ],
+ "fields": [
+  {
+   "fieldname": "sites",
+   "fieldtype": "Table",
+   "label": "Sites",
+   "options": "LA Site Settings"
+  },
+  {
+   "fieldname": "section_break_lmkx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_settings",
+   "fieldtype": "Table",
+   "label": "Table Settings",
+   "options": "LA Table Settings"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-09-29 16:15:08.468666",
+ "modified_by": "Administrator",
+ "module": "Log Analytics",
+ "name": "LA Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

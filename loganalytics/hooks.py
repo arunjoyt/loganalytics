@@ -5,6 +5,16 @@ app_description = "Utility to collect log data from frappe sites, which can be u
 app_email = "contact22logic@gmail.com"
 app_license = "mit"
 
+
+fixtures = [
+    {
+        "doctype": "Server Script",
+        "filters": {
+            "module": ["in", ["Log Analytics",]]
+        }
+    }
+]
+
 # Apps
 # ------------------
 
