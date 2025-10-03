@@ -1,0 +1,61 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ArOLyeLyqG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Log Analytics</span>\",\"col\":12}},{\"id\":\"8WfJ93Dq4M\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"LA Settings\",\"col\":6}},{\"id\":\"ug7QXokB0a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"LA Route History\",\"col\":6}},{\"id\":\"ZhTTCliupE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"KU13nlhRhq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"FC Site Settings\",\"col\":6}},{\"id\":\"cTqTMT220K\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"FC Site Usage Log\",\"col\":6}}]",
+ "creation": "2025-10-03 15:13:16.377316",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table_2",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Log Analytics",
+ "links": [],
+ "modified": "2025-10-03 15:18:34.886393",
+ "modified_by": "Administrator",
+ "module": "Log Analytics",
+ "name": "Log Analytics",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "LA Settings",
+   "link_to": "LA Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "LA Route History",
+   "link_to": "LA Route History",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "FC Site Settings",
+   "link_to": "FC Site Settings",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "FC Site Usage Log",
+   "link_to": "FC Site Usage Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Log Analytics"
+}
