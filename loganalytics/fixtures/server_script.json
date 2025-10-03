@@ -28,13 +28,13 @@
   "doctype_event": "Before Insert",
   "enable_rate_limit": 0,
   "event_frequency": "Hourly",
-  "modified": "2025-10-03 14:46:59.687831",
+  "modified": "2025-10-03 15:00:51.684276",
   "module": "Log Analytics",
   "name": "log_frappe_cloud_site_usage",
   "rate_limit_count": 5,
   "rate_limit_seconds": 86400,
   "reference_doctype": null,
-  "script": "frappe.call(\"loganalytics.api.log_frappe_cloud_site_usage\")",
+  "script": "# Create one \"FC Site Settings\" record for each Frappe Cloud site you want to monitor.\nfrappe.call(\"loganalytics.api.log_frappe_cloud_site_usage\")\n",
   "script_type": "Scheduler Event"
  }
 ]
