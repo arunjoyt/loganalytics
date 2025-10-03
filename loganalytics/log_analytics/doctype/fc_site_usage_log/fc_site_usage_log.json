@@ -2,6 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "creation": "2025-10-03 11:55:41.121054",
+ "default_view": "List",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -15,6 +16,7 @@
   {
    "fieldname": "date",
    "fieldtype": "Datetime",
+   "in_list_view": 1,
    "label": "Date",
    "read_only": 1
   },
@@ -22,6 +24,7 @@
    "description": "Time remaining till the current rate limit window resets (in seconds).",
    "fieldname": "x_ratelimit_reset",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "x ratelimit reset",
    "read_only": 1
   },
@@ -29,6 +32,7 @@
    "description": "Time permitted to use in a rate limit window (in microseconds).",
    "fieldname": "x_ratelimit_limit",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "x ratelimit limit",
    "read_only": 1
   },
@@ -36,12 +40,14 @@
    "description": "Time remaining (to be used) in the current rate limit window (in microseconds).",
    "fieldname": "x_ratelimit_remaining",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "x ratelimit remaining",
    "read_only": 1
   },
   {
    "fieldname": "fc_site_url",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "FC Site URL",
    "read_only": 1
   }
@@ -49,7 +55,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-03 12:22:24.226513",
+ "modified": "2025-10-03 15:11:39.706846",
  "modified_by": "Administrator",
  "module": "Log Analytics",
  "name": "FC Site Usage Log",
