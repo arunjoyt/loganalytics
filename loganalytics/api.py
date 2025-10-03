@@ -54,4 +54,18 @@ def sync_log_data():
 
     return {"status": "success", "last_sync_job_run_date": now()}
 
-  
+@frappe.whitelist()
+def log_frappe_cloud_site_usage():
+    fc_site_settings_list = frappe.get_list("FC Site Settings", fields=['fc_site_url'])
+    for fc_site_setting in fc_site_settings_list:
+        fc_site_url = fc_site_setting['fc_site_url']
+        response = requests.get(url=fc_site_url)
+        frappe.get_doc({
+            "doctype" : "FC Site Usage Log",
+            "date": now(),
+            "fc_site_url" : fc_site_url,
+            "x_ratelimit_limit" : response.headers['x-ratelimit-limit'],
+            "x_ratelimit_remaining" : response.headers['x-ratelimit-remaining'],
+            "x_ratelimit_reset" : response.headers['x-ratelimit-reset']
+        }).insert()
+    return {"status": "success", "sites_logged": [f.fc_site_url for f in fc_site_settings_list]}
