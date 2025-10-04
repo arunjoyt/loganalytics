@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"ArOLyeLyqG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Log Analytics</span>\",\"col\":12}},{\"id\":\"8WfJ93Dq4M\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"LA Settings\",\"col\":6}},{\"id\":\"ug7QXokB0a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"LA Route History\",\"col\":6}},{\"id\":\"ZhTTCliupE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"KU13nlhRhq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"FC Site Settings\",\"col\":6}},{\"id\":\"cTqTMT220K\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"FC Site Usage Log\",\"col\":6}}]",
+ "content": "[{\"id\":\"ArOLyeLyqG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Log Analytics</span>\",\"col\":12}},{\"id\":\"8WfJ93Dq4M\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"LA Settings\",\"col\":6}},{\"id\":\"ug7QXokB0a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"LA Route History\",\"col\":6}},{\"id\":\"ZhTTCliupE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"KU13nlhRhq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"FC Site Settings\",\"col\":6}},{\"id\":\"cTqTMT220K\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"FC Site Usage Log\",\"col\":6}},{\"id\":\"YB7xcyFLaN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily FC Site Usage Stats\",\"col\":6}}]",
  "creation": "2025-10-03 15:13:16.377316",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Log Analytics",
  "links": [],
- "modified": "2025-10-03 15:18:34.886393",
+ "modified": "2025-10-04 17:55:45.950350",
  "modified_by": "Administrator",
  "module": "Log Analytics",
  "name": "Log Analytics",
@@ -23,7 +23,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 28.0,
+ "sequence_id": 1.0,
  "shortcuts": [
   {
    "color": "Grey",
@@ -31,6 +31,14 @@
    "label": "LA Settings",
    "link_to": "LA Settings",
    "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Daily FC Site Usage Stats",
+   "link_to": "Daily FC Site Usage Stats",
+   "report_ref_doctype": "FC Site Usage Log",
+   "type": "Report"
   },
   {
    "color": "Grey",
